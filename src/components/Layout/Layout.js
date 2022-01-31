@@ -26,7 +26,7 @@ import Sidebar from "../Sidebar";
 // pages
 import Dashboard from "../../pages/dashboard";
 import Organization from "../../pages/organization/Organization";
-import addOrganization from "../../pages/organization/addOrganization";
+import AddOrganization from "../../pages/organization/AddOrganization";
 // context
 import { useLayoutState } from "../../context/LayoutContext";
 
@@ -50,7 +50,7 @@ function Layout(props) {
             <Switch>
               <Route path="/app/dashboard" component={Dashboard} />
               <Route path="/app/organization" component={Organization} />
-              <Route path="/app/addOrganization" component={addOrganization} />
+              <Route path="/app/AddOrganization" component={AddOrganization} />
               {/* <Route path="/app/typography" component={Typography} />
               <Route path="/app/tables" component={Tables} />
               <Route path="/app/notifications" component={Notifications} /> */}

@@ -38,34 +38,18 @@ const structure = [
   //   icon: <TypographyIcon />,
   // },
   // { id: 2, label: "Tables", link: "/app/tables", icon: <TableIcon /> },
-  // { id: 2, label: "Organization", link: "/app/organization", icon: <TableIcon /> },
-  {
-    id: 2,
-    label: "Organization",
-    link: "/app/organization",
-    icon: <TableIcon />,
-    children: [
-      { label: "Add New", link: "/app/addOrganization" },
-      { label: "View", link: "/app/organization" },
-    ],
-  },
+   { id: 2, label: "Organization", link: "/app/organization", icon: <TableIcon /> },
   // {
-  //   id: 3,
-  //   label: "Notifications",
-  //   link: "/app/notifications",
-  //   icon: <NotificationsIcon />,
-  // },
-  // {
-  //   id: 4,
-  //   label: "UI Elements",
-  //   link: "/app/ui",
-  //   icon: <UIElementsIcon />,
+  //   id: 2,
+  //   label: "Organization",
+  //   link: "/app/organization",
+  //   icon: <TableIcon />,
   //   children: [
-  //     { label: "Icons", link: "/app/ui/icons" },
-  //     { label: "Charts", link: "/app/ui/charts" },
-  //     { label: "Maps", link: "/app/ui/maps" },
+  //     { label: "Add New", link: "/app/addOrganization" },
+  //     { label: "View", link: "/app/organization" },
   //   ],
   // },
+  
   
 ];
 
