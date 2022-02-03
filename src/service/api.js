@@ -25,3 +25,21 @@ export const deleteOrganization = async (id) => {
         console.log('Error while calling deletePost API ', error)
     }
 }
+
+export const getIdOrganization = async (id) => {
+    try {
+        let response = await axios.get(`${url}/details_organization/${id}`);
+        return response.data;
+    } catch (error) {
+        console.log('Error while calling getPost API ', error);
+    }
+}
+
+export const updateAllOrganization = async (id, post) => {
+    try {
+        return await axios.post(`${url}/update_organization/${id}`, post);
+        
+    } catch(error) {
+        console.log('Error while calling updatePost API ', error)
+    }
+}

@@ -45,7 +45,24 @@ const useStyles = makeStyles(theme => ({
           organization.billingCity,
           organization.billingState,
           organization.billingCountry,
-          <ActionButton getTheId={organization._id}/>
+          <ActionButton 
+              getTheId={organization._id} 
+              name={organization.organaizationName}
+              phone={organization.phone}
+              fax={organization.fax}
+              website={organization.website}
+              linkdin={organization.linkdin}
+              facebook={organization.facebook}
+              twitter={organization.twitter}
+              emailDomain={organization.emailDomain}
+              billingAddress={organization.billingAddress}
+              billingCity={organization.billingCity}
+              billingState={organization.billingState}
+              billingPostalCode={organization.billingPostalCode}
+              billingCountry={organization.billingCountry}
+              description={organization.description}
+              tags={organization.tags}
+            />
         ]
   ));
 

@@ -45,7 +45,7 @@ const AddOrganization = () => {
     const history = useHistory();
     const [open, setOpen] = useState(false);
     const [organization, setOrganization] = useState();
-    const [maxWidth, setMaxWidth] = React.useState('md');
+    const [maxWidth, setMaxWidth] = React.useState('sm');
     const [expanded1, setExpanded1] = React.useState('panel1');
     const [expanded2, setExpanded2] = React.useState('panel2');
     const [expanded3, setExpanded3] = React.useState('panel3');
